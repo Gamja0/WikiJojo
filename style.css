@@ -1,0 +1,360 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Body y main*/
+
+body {
+    background-image: url("Index/contenido/b1.png");
+}
+
+body ::selection {
+    background-color: rgba(235, 228, 218, 0.616);
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Barra de navegación*/
+
+nav {
+    text-align: center;
+}
+
+.nav_lista {
+    margin: 0;
+}
+
+.nav_items {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav_link {
+    color: #fff;
+    background-color: rgba(46, 32, 97, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    background-color: rgba(221, 173, 255, 0.7);
+    color: rgb(51, 15, 78);
+}
+
+.link_boton {
+    border: 1px solid rgba(37, 27, 133, 0.555);
+    background-color: rgba(46, 32, 97, 0.589);
+    padding: 5px 15px;
+    color: rgba(230, 195, 255, 0.73);
+    border-radius: 3px;
+    margin-left: 12px;
+}
+
+.link_boton:hover {
+    background: transparent;
+    color: rgb(51, 15, 78);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Header*/
+
+header {
+    border: 1px solid rgba(51, 15, 78, 0.3);
+    background: linear-gradient(135deg, rgb(148, 102, 194) 0%, rgb(88, 51, 161) 100%);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(12, 52, 21, 0.427);
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Cajas*/
+
+.caja2 {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px 80px;
+    text-align: center;
+}
+
+.caja3 {
+    width: 98%;
+    padding: 30px;
+    text-align: center;
+}
+
+.caja4 {
+    width: 65%;
+    text-align: center;
+    padding:30px;
+}
+
+.caja5 {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px 80px;
+    text-align: center;
+}
+
+.caja2,
+.caja3,
+.caja4,
+.caja5 {
+    background-color: rgba(154, 144, 199);
+    border: 1px solid rgba(51, 15, 78, 0.3);
+    box-shadow: 0px 4px 8px rgba(12, 52, 21, 0.427);
+    border-radius: 8px;
+}
+
+div,
+body,
+header,
+nav,
+ul {
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Footer*/
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(51, 14, 94);
+    background-color: rgb(107, 96, 155);
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid rgba(51, 15, 78, 0.3);
+    border-radius: 10px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Textos */
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    margin: 40px;
+    padding: 10px;
+    color: rgb(51, 14, 94);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Titulos*/
+
+#primer_titulo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(18, 16, 34);
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(18, 16, 34);
+}
+
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(18, 16, 34);
+}
+
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(18, 16, 34);
+}
+
+h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(18, 16, 34);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Footer*/
+
+.formulario {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px 80px;
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    margin: 10px;
+}
+
+input,
+textarea,
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    border: 5px solid rgba(15, 78, 21, 0.418);}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Imagenes*/
+.img1 {
+    margin: 39px;
+    width: 60%;
+    border: 5px solid rgba(15, 78, 21, 0.418);
+}
+
+.img2 {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    border: 5px solid rgba(15, 78, 21, 0.418);
+}
+
+.img3 {
+    position: static;
+    width: 100px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Botones*/
+button {
+    border: 1px solid rgba(37, 27, 133, 0.555);
+    background-color: rgba(46, 32, 97, 0.589);
+    padding: 8px 15px;
+    color: rgba(230, 195, 255, 0.73);
+    border-radius: 3px;
+    margin: 12px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Responsive*/
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(12, 52, 21, 0.427);
+        border: 1px solid rgba(51, 15, 78, 0.3);
+    }
+
+    .main-content {
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #primer_titulo {
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    .formulario,
+    .caja2,
+    .caja3,
+    .caja4,
+    .caja5,
+    footer {
+        width: 100%;
+        padding: 5px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+    .caja4 {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 8px auto;
+        margin-right: 5px;
+    }
+
+    .caja3 {
+        width: 100%;
+    }
+
+    .nav_lista {
+        margin-right: 50px;
+    }
+
+    .nav_link {
+        display: inline-block;
+        padding: 3px;
+        width: 100%;
+        background-color: rgba(46, 32, 97, 0.603);
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .nav_items {
+        display:inline-block; /* Navegación en columna */
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .img1, .img2 {
+        width: 100%; /* Reducir ancho de las imágenes */
+        margin: 10px auto; /* Centrar imágenes */
+    }
+
+    .img3 {
+        margin-left: 20px;
+        width: 80px; /* Ajuste de tamaño de imagen */
+    }
+
+    
+}
